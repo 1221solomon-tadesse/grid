@@ -14,7 +14,7 @@ const Hero = () => {
               alt="photo"
               layout="fill" // Ensure the image fills the container
               objectFit="cover" // Cover the area while maintaining aspect ratio
-              className="blur-sm" // Apply a blur effect
+              className="blur-sm w-16 h-16 items " // Apply a blur effect
             />
           </div>
 
@@ -26,7 +26,7 @@ const Hero = () => {
               <span>Crafting Digital Solutions for Today's Innovators</span>
               <Image src={zig} alt="photo" className="items-center m-auto" />
             </div>
-            <div className="h-fit font-sans text-18 font-light">
+            <div className="h-fit font-sans text-18 font-light text-center">
               <p>
                 Our team of strategists, creatives, and engineers leverage their
                 unparalleled expertise to develop everything from Digital Brand
