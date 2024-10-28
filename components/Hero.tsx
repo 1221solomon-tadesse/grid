@@ -39,19 +39,19 @@ const Hero = () => {
         <div className="row-span-3 row-start-6 col-start-4 col-span-6 bg-green-500 p-4 ">
           Column 12 (4/12)
         </div>
-        <div className="row-span-1 row-start-7 col-start-3 col-span-2 z-20 bg-red-500 min-w-fit max-h-fit h-4/5 hover:border-b-4 hover:border-l-4 border-green-500  ">
+        <div className="row-span-1 row-start-7 col-start-3 col-span-2 z-20 bg-red-500 min-w-fit self-start hover:border-b-4 hover:border-l-4 border-green-500  ">
           <div className="flex">
             <Image src={photo} alt="photo" />
-            <p className="p-3"> DevOPs Engineer </p>
+            <p className="p-3 self-start"> DevOPs Engineer </p>
           </div>
         </div>
-        <div className="row-span-1 col-start-10 row-start-7 col-span-3 bg-yellow-500 mr-16 min-w-fit max-h-fit h-4/5 hover:border-b-4 hover:border-l-4 border-green-500">
+        <div className="row-span-1 col-start-10 row-start-7 col-span-3 bg-yellow-500 mr-16 min-w-fit self-start justify-self-start hover:border-b-4 hover:border-l-4 border-green-500">
           <div className="flex">
             <Image src={photo} alt="photo" />
             <p className="p-3 w-fit"> Quality Assurance Engineer</p>
           </div>
         </div>
-        <div className="row-span-1 col-start-10 row-start-4 col-span-3 bg-red-500  max-h-fit min-w-fit h-4/5 hover:border-b-4 hover:border-l-4 border-green-500 ml-16 mr-16">
+        <div className="row-span-1 col-start-10 row-start-4 col-span-3 bg-red-500   min-w-fit  hover:border-b-4 hover:border-l-4 border-green-500 ml-16 mr-16">
           <div className="flex">
             <div className="flex">
               <Image src={photo} alt="photo" />
@@ -59,19 +59,19 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="row-span-1 col-start-10 row-start-2 col-span-2 bg-yellow-500 min-w-fit max-h-fit h-4/5 hover:border-b-4 hover:border-l-4 border-green-500 ">
+        <div className="row-span-1 col-start-10 row-start-2 col-span-2 bg-yellow-500 min-w-fit  self-end hover:border-b-4 hover:border-l-4 border-green-500 ">
           <div className="flex">
             <Image src={photo} alt="photo" />
             <p className="p-3"> Project Manager</p>
           </div>
         </div>
-        <div className="row-span-1 col-start-2 row-start-5 col-span-2 bg-red-500 mr-8 min-w-fit max-h-fit h-4/5 hover:border-b-4 hover:border-l-4 border-green-500">
+        <div className="row-span-1 col-start-2 row-start-5 col-span-2 bg-red-500 mr-8 min-w-fit self-start justify-self-start hover:border-b-4 hover:border-l-4 border-green-500">
           <div className="flex">
             <Image src={photo} alt="photo" />
             <p className="p-3"> UI/UX Designer</p>
           </div>
         </div>
-        <div className="row-span-1 col-start-2 row-start-3 col-span-2 bg-green-500 min-w-fit max-h-fit h-4/5 hover:border-b-4 hover:border-l-4 border-green-500 ">
+        <div className="row-span-1 col-start-2 self-start row-start-3 col-span-2 bg-green-500 min-w-fit  hover:border-b-4 hover:border-l-4 border-green-500  ">
           <div className="flex ">
             <Image src={photo} alt="photo" />
             <p> Full Stack Developer </p>
